@@ -1,0 +1,30 @@
+# Virtual environments
+env/
+env_new/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Generated output images
+*_no_bg.png
+
+# rembg model cache
+.u2net/
+
+# Local tooling
+.claude/
+
+# Internal docs (not for the public repo)
+CLAUDE.md
+rmbackground.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
